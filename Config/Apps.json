@@ -1,5 +1,5 @@
 {
-  "Version": "1.1",
+  "Version": "2.0",
   "Apps": [
     {
       "FriendlyName": "Clipchamp",
@@ -75,20 +75,6 @@
       "FriendlyName": "Bing Weather",
       "AppId": "Microsoft.BingWeather",
       "Description": "Weather forecast via Bing",
-      "SelectedByDefault": true,
-      "Recommendation": "safe"
-    },
-    {
-      "FriendlyName": "Copilot",
-      "AppId": "Microsoft.Copilot",
-      "Description": "AI assistant integrated into Windows",
-      "SelectedByDefault": true,
-      "Recommendation": "safe"
-    },
-    {
-      "FriendlyName": "Copilot+ AI Hub",
-      "AppId": "Microsoft.Windows.AIHub",
-      "Description": "Copilot+ AI Hub app (Windows 11 24H2+)",
       "SelectedByDefault": true,
       "Recommendation": "safe"
     },
@@ -177,13 +163,6 @@
       "Recommendation": "safe"
     },
     {
-      "FriendlyName": "OneNote",
-      "AppId": "Microsoft.Office.OneNote",
-      "Description": "Digital note-taking app (Universal Windows Platform version)",
-      "SelectedByDefault": true,
-      "Recommendation": "safe"
-    },
-    {
       "FriendlyName": "Sway",
       "AppId": "Microsoft.Office.Sway",
       "Description": "Presentation and storytelling app",
@@ -233,13 +212,6 @@
       "Recommendation": "safe"
     },
     {
-      "FriendlyName": "Alarms & Clock",
-      "AppId": "Microsoft.WindowsAlarms",
-      "Description": "Alarms & Clock app",
-      "SelectedByDefault": true,
-      "Recommendation": "safe"
-    },
-    {
       "FriendlyName": "Feedback Hub",
       "AppId": "Microsoft.WindowsFeedbackHub",
       "Description": "App for providing feedback to Microsoft on Windows",
@@ -278,27 +250,6 @@
       "FriendlyName": "Family Safety",
       "AppId": "MicrosoftCorporationII.MicrosoftFamily",
       "Description": "Family Safety App for managing family accounts and settings",
-      "SelectedByDefault": true,
-      "Recommendation": "safe"
-    },
-    {
-      "FriendlyName": "Quick Assist",
-      "AppId": "MicrosoftCorporationII.QuickAssist",
-      "Description": "Remote assistance tool",
-      "SelectedByDefault": true,
-      "Recommendation": "safe"
-    },
-    {
-      "FriendlyName": "Microsoft Teams (Old)",
-      "AppId": "MicrosoftTeams",
-      "Description": "Old Microsoft Teams personal (MS Store version)",
-      "SelectedByDefault": true,
-      "Recommendation": "safe"
-    },
-    {
-      "FriendlyName": "Microsoft Teams (New)",
-      "AppId": "MSTeams",
-      "Description": "New Microsoft Teams app (Work/School or Personal)",
       "SelectedByDefault": true,
       "Recommendation": "safe"
     },
@@ -646,13 +597,6 @@
       "Recommendation": "optional"
     },
     {
-      "FriendlyName": "Microsoft Edge",
-      "AppId": ["Microsoft.Edge", "XPFFTQ037JWMHS"],
-      "Description": "Windows' default browser, WARNING: Removing this app also removes the only browser from Windows Sandbox and could affect other apps",
-      "SelectedByDefault": false,
-      "Recommendation": "unsafe"
-    },
-    {
       "FriendlyName": "Xbox Gaming App",
       "AppId": "Microsoft.GamingApp",
       "Description": "Modern Xbox Gaming App, required for installing some PC games",
@@ -681,23 +625,9 @@
       "Recommendation": "optional"
     },
     {
-      "FriendlyName": "OneDrive",
-      "AppId": "Microsoft.OneDrive",
-      "Description": "OneDrive consumer cloud storage client",
-      "SelectedByDefault": false,
-      "Recommendation": "optional"
-    },
-    {
       "FriendlyName": "Outlook for Windows",
       "AppId": "Microsoft.OutlookForWindows",
       "Description": "New Outlook for Windows mail client",
-      "SelectedByDefault": false,
-      "Recommendation": "optional"
-    },
-    {
-      "FriendlyName": "Paint",
-      "AppId": "Microsoft.Paint",
-      "Description": "Classic Paint (Traditional 2D paint application)",
       "SelectedByDefault": false,
       "Recommendation": "optional"
     },
@@ -707,20 +637,6 @@
       "Description": "Required for & included with Mail & Calendar (discontinued)",
       "SelectedByDefault": false,
       "Recommendation": "safe"
-    },
-    {
-      "FriendlyName": "Remote Desktop",
-      "AppId": "Microsoft.RemoteDesktop",
-      "Description": "Remote Desktop client app",
-      "SelectedByDefault": false,
-      "Recommendation": "optional"
-    },
-    {
-      "FriendlyName": "Snipping Tool",
-      "AppId": "Microsoft.ScreenSketch",
-      "Description": "Snipping Tool (Screenshot and annotation tool)",
-      "SelectedByDefault": false,
-      "Recommendation": "optional"
     },
     {
       "FriendlyName": "Widgets Experience",
@@ -744,13 +660,6 @@
       "Recommendation": "optional"
     },
     {
-      "FriendlyName": "Calculator",
-      "AppId": "Microsoft.WindowsCalculator",
-      "Description": "Calculator app",
-      "SelectedByDefault": false,
-      "Recommendation": "optional"
-    },
-    {
       "FriendlyName": "Camera",
       "AppId": "Microsoft.WindowsCamera",
       "Description": "Camera app for using built-in or connected cameras",
@@ -763,27 +672,6 @@
       "Description": "Mail & Calendar app suite (Discontinued)",
       "SelectedByDefault": false,
       "Recommendation": "safe"
-    },
-    {
-      "FriendlyName": "Notepad",
-      "AppId": "Microsoft.WindowsNotepad",
-      "Description": "Notepad text editor app",
-      "SelectedByDefault": false,
-      "Recommendation": "optional"
-    },
-    {
-      "FriendlyName": "Microsoft Store",
-      "AppId": "Microsoft.WindowsStore",
-      "Description": "Microsoft Store, WARNING: This app cannot be reinstalled easily if removed!",
-      "SelectedByDefault": false,
-      "Recommendation": "unsafe"
-    },
-    {
-      "FriendlyName": "Windows Terminal",
-      "AppId": "Microsoft.WindowsTerminal",
-      "Description": "Default terminal app in windows 11 (Command Prompt, PowerShell, WSL)",
-      "SelectedByDefault": false,
-      "Recommendation": "optional"
     },
     {
       "FriendlyName": "Xbox TCUI Framework",
